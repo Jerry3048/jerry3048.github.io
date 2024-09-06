@@ -1,0 +1,37 @@
+body{
+	
+	background-image: url(Landscape_of_Obafemi_Awolowo_University,_Ile-Ife.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header{
+	text-align: center;
+	font-family: Georgia;
+	border: 2px solid purple;
+	border-style: ridge;
+	border-radius: 50px;
+}
+input{
+	color: purple;
+	background-color:white;
+	padding: 5px;
+}
+button{
+	background-color: purple;
+	margin-top: 5px;
+	color:white;
+}
+
+form{
+	text-align: center;
+	margin-top:30px;
+}
+.submit{
+	padding:10px 40px;
+}
+.Download{
+	margin-top: 100px;
+	padding:10px 40px;
+	border:5px solid purple;
+	border-radius: 30px;
+}

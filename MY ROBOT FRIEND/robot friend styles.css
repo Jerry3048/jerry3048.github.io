@@ -1,0 +1,83 @@
+h1{
+	text-align: center; 
+}
+.robothead{
+	display: flex;
+	margin-left: 570px;
+	display: flex;
+	justify-content: center;
+	width:0px;
+	height: 29px;
+	border: 10px solid blue;
+	border-width: 100px;
+	border-color: blue;
+	border-top-left-radius: 1174px;
+	border-top-right-radius: 1174px; 
+	border-top: 150px;
+	transition: 1s;
+}
+.robothead:hover{
+	transform: scale(1.1);
+}
+.robotchest{
+	display: flex;
+	justify-content: center;
+	margin-left: 570px;
+	width:0px;
+	height: 0px;
+	border:5px solid blue;
+	margin-top: 10px;
+	border-width:100px;
+	border-bottom-left-radius: 45px;
+	border-bottom-right-radius: 45px;
+}
+.lefthand{
+	display: flex;
+	margin-top: 150px;
+	margin-left:499px;
+	border:27px solid blue;
+	float: left;
+	height: 100px;
+	width:0px+;
+	border-top-left-radius: 70px;
+	border-top-right-radius: 70px;
+	border-bottom-left-radius: 70px;
+	border-bottom-right-radius: 70px;  
+}
+.righthand{
+	display: flex;
+	margin-top: 150px;
+	margin-right:507px;
+	border:27px solid blue;
+	float: right;
+	height: 100px;
+	width:0px;
+	border-top-left-radius: 70px;
+	border-top-right-radius: 70px;
+	border-bottom-left-radius: 70px;
+	border-bottom-right-radius: 70px;  
+}/*
+.robotlegs{
+	display:flex;
+	flex-wrap:wrap;
+}*/
+.leftleg{
+	border:27px solid blue;
+	width:0px;
+	height: 70px;
+	border-bottom-left-radius: 70px;
+	border-bottom-right-radius: 70px; 
+	margin-left: 610px; 
+}
+.rightleg{
+	border:27px solid blue;
+	width:0px;
+	height: 70px;
+	border-bottom-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+	margin-left: 10px;
+}
+.robotlegs{
+	display:flex;
+	flex-wrap:wrap;
+}
